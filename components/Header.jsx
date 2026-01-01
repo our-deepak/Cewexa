@@ -9,13 +9,13 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
-  const navItems = ["Home", "Services", "Portfolio", "Blogs", "About", "Contact"];
+  const navItems = ["Home", "Services", "Portfolio", "About", "Contact"];
 
   const getPath = (item) => {
     if (item === "Home") return "/";
     if (item === "Services") return "/services";
     if (item === "Portfolio") return "/portfolio";
-    if (item === "Blogs") return "/blogs";
+    
     if (item === "About") return "/about";
     if (item === "Contact") return "/contact";
     return `/${item.toLowerCase()}`;
