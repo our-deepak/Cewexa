@@ -86,8 +86,8 @@ const PrivacyPolicy = () => {
           <p className="text-gray-700">
             For questions about this Privacy Policy, contact: <br />
             <strong>Email:</strong>{" "}
-            <a href="mailto:Cewexa@gmail.com" className="text-orange-600 hover:underline">
-              Cewexa@gmail.com
+            <a href="mailto:enquiry@cewexa.com" className="text-orange-600 hover:underline">
+              enquiry@cewexa.com
             </a>
           </p>
         </section>

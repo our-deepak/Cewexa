@@ -364,14 +364,14 @@ export default function Contact() {
                     </div>
 
                     <div className="mt-12 space-y-8">
-                      <a className="flex items-start gap-5 group card" data-delay-index="0" href="mailto:Cewexa@gmail.com">
+                      <a className="flex items-start gap-5 group card" data-delay-index="0" href="mailto:enquiry@cewexa.com">
                         <div className="shrink-0 size-12 rounded-lg bg-orange-200 dark:bg-gray-800 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:-rotate-12">
                           <IoMail className="text-orange-400 text-3xl" />
                         </div>
                         <div>
                           <h3 className="text-lg font-bold text-stone-900 dark:text-white dark:text-white">Email Us</h3>
                           <p className="text-stone-600 mt-1 dark:text-gray-300">For direct inquiries.</p>
-                          <p className="text-primary font-medium mt-2 inline-block dark:text-white">Cewexa@gmail.com</p>
+                          <p className="text-primary font-medium mt-2 inline-block dark:text-white">enquiry@cewexa.com</p>
                         </div>
                       </a>
 

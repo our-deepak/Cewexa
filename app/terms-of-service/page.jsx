@@ -100,7 +100,7 @@ const TermsOfService = () => {
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Contact Us</h2>
           <p className="text-gray-700">
             For questions regarding these Terms of Service, contact: <br />
-            <strong>Email:</strong> <a href="mailto:Cewexa@gmail.com" className="text-orange-600 hover:underline">Cewexa@gmail.com</a>
+            <strong>Email:</strong> <a href="mailto:enquiry@cewexa.com" className="text-orange-600 hover:underline">enquiry@cewexa.com</a>
           </p>
         </section>
       </div>

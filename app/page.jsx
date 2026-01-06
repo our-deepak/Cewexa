@@ -182,7 +182,7 @@ export default function Page() {
                 </div>
 
                 <div className="relative z-10 flex flex-col gap-6 max-w-4xl items-center">
-                  <h1 className="animate-on-scroll animate-slide-in-2 text-white text-4xl sm:text-5xl md:text-7xl font-black leading-tight tracking-tighter">
+                  <h1 className="animate-on-scroll animate-slide-in-2 text-white text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight tracking-tighter">
                     Cewexa - Where Speed Meets Performance.
                   </h1>
 
