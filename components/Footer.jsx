@@ -36,11 +36,11 @@ const Footer = () => {
             High-performance digital solutions for modern businesses.
           </p>
           <div className="dark:text-white flex gap-4">
-            <Link href="https://www.facebook.com/cewexa_"><FaFacebook /></Link>
+            <Link href="https://www.facebook.com/cewexa"><FaFacebook /></Link>
            <Link href="https://x.com/cewexa_"> <FaXTwitter /></Link>
             <Link href="https://www.instagram.com/cewexa_"><FaInstagram/></Link>
-            <Link href="https://www.linkedin.com/company/cewexa_"><FaLinkedinIn /></Link>
-          <Link href="https://www.youtube.com/@cewexa_"> <IoLogoYoutube /></Link>
+            <Link href="https://www.linkedin.com/company/cewexa"><FaLinkedinIn /></Link>
+          <Link href="https://www.youtube.com/@cewexa"> <IoLogoYoutube /></Link>
           </div>
           <p className="text-sm text-warm-gray-500 mt-4 dark:text-white">
             <span className="text-orange-500">©</span> 2026 Cewexa. All rights

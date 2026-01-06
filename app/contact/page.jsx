@@ -380,7 +380,7 @@ export default function Contact() {
                           <IoCall className="text-orange-400 text-3xl" />
                         </div>
                         <div>
-                          <h3 className="text-lg font-bold text-stone-900 dark:text-white dark:text-white">Call Us</h3>
+                          <h3 className="text-lg font-bold text-stone-900 dark:text-white">Call Us</h3>
                           <p className="text-stone-600 mt-1 dark:text-gray-300 ">Speak with our team directly.</p>
                           <p className="text-primary font-medium mt-2 dark:text-white">+91-8441006695</p>
                         </div>
@@ -391,7 +391,7 @@ export default function Contact() {
                           <FaWhatsapp className="text-orange-400 text-3xl" />
                         </div>
                         <div>
-                          <h3 className="text-lg font-bold text-stone-900 dark:text-white dark:text-white">WhatsApp Us</h3>
+                          <h3 className="text-lg font-bold text-stone-900 dark:text-white">WhatsApp Us</h3>
                           <p className="text-stone-600 mt-1 dark:text-gray-300">Chat on WhatsApp.</p>
                           <p className="text-primary font-medium mt-2 dark:text-white">+91-8441006695</p>
                         </div>

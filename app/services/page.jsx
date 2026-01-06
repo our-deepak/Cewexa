@@ -131,7 +131,7 @@ export default function Services() {
                   className="flex flex-col sm:flex-row gap-4 justify-center mt-8 reveal animate-fade-in-up"
                   style={{ animationDelay: "0.3s" }}
                 >
-                 <Link href='https://api.whatsapp.com/send/?phone=918441006695&text=Hi,%20I+would%20like%20to%20book%20a%20free%20consultation%20with%20Cewexa.' className="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-orange-500 text-white text-base font-bold leading-normal tracking-wide hover:bg-soft-orange/90 transition-all duration-300 hover:scale-105">
+                 <Link href='/contact' className="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-orange-500 text-white text-base font-bold leading-normal tracking-wide hover:bg-soft-orange/90 transition-all duration-300 hover:scale-105">
                    <button>
                     <span className="truncate">Get Free Consultation</span>
                   </button>
@@ -150,6 +150,7 @@ export default function Services() {
               className="flex flex-col gap-16 md:gap-24 overflow-hidden py-20 md:py-24 px-4 sm:px-8"
               id="services"
             >
+              {/* first block */}
               <section className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12 lg:gap-16">
                 <div className="flex flex-col gap-6 reveal animate-slide-in-left">
                   <div className="flex items-center gap-4">
@@ -205,7 +206,7 @@ export default function Services() {
                     className="absolute inset-0 w-full h-full bg-cover bg-center rounded-2xl shadow-xl transition-transform duration-500 group-hover:scale-110"
                     style={{
                       backgroundImage:
-                        "url('https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+                        "url('https://res.cloudinary.com/dj1alxa4r/image/upload/v1767707954/fullstack_development_service_uqn3bl.jpg')",
                     }}
                   />
                 </div>
@@ -268,7 +269,7 @@ export default function Services() {
                     className="absolute inset-0 w-full h-full bg-cover bg-center rounded-2xl shadow-xl transition-transform duration-500 group-hover:scale-110"
                     style={{
                       backgroundImage:
-                        "url('https://images.unsplash.com/photo-1657727534685-36b09f84e193?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+                        "url('https://res.cloudinary.com/dj1alxa4r/image/upload/v1767708136/website_management_service_b372sr.jpg')",
                     }}
                   />
                 </div>
@@ -330,7 +331,7 @@ export default function Services() {
                     className="absolute inset-0 w-full h-full bg-cover bg-center rounded-2xl shadow-xl transition-transform duration-500 group-hover:scale-110"
                     style={{
                       backgroundImage:
-                        "url('https://images.unsplash.com/photo-1674027001834-719c347d1eca?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+                        "url('https://res.cloudinary.com/dj1alxa4r/image/upload/v1767708367/photo-1674027001834-719c347d1eca_sb7a54.avif')",
                     }}
                   />
                 </div>
@@ -391,7 +392,7 @@ export default function Services() {
                     className="absolute inset-0 w-full h-full bg-cover bg-center rounded-2xl shadow-xl transition-transform duration-500 group-hover:scale-110"
                     style={{
                       backgroundImage:
-                        "url('https://plus.unsplash.com/premium_photo-1683980578016-a1f980719ec2?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+                        "url('https://res.cloudinary.com/dj1alxa4r/image/upload/v1767708046/social_media_solutions_service_jcgkpf.png')",
                     }}
                   />
                 </div>
