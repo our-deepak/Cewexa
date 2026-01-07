@@ -4,7 +4,13 @@ import React, { useEffect } from "react";
 import { FaCode, FaRocket } from "react-icons/fa";
 import { IoIosSettings, IoIosTrendingUp } from "react-icons/io";
 import { MdGroups, MdQueryStats, MdOutlineSupportAgent } from "react-icons/md";
-
+import { FaRegLightbulb } from "react-icons/fa";
+import { GoRocket } from "react-icons/go";
+import { MdOutlinePsychology } from "react-icons/md";
+import { MdArchitecture } from "react-icons/md";
+import { IoDiamondOutline } from "react-icons/io5";
+import { MdAutorenew } from "react-icons/md";
+import { FaLightbulb } from "react-icons/fa";
 export default function Page() {
   useEffect(() => {
     const animatedElements = Array.from(
@@ -366,7 +372,242 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-
+{/*CEWEXA Meaning */}
+ <div className="bg-background-light dark:bg-background-dark text-gray-800 dark:text-gray-200 font-body transition-colors duration-500 flex flex-col  selection:bg-[#FB923C] selection:text-white">
+                  <div className="fixed inset-0 w-full h-full pointer-events-none overflow-hidden z-0">
+                    <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#FB923C]/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-3xl opacity-30 animate-blob"></div>
+                    <div className="absolute top-0 right-1/4 w-96 h-96 bg-purple-300/20 dark:bg-purple-900/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
+                    <div className="absolute -bottom-32 left-1/3 w-96 h-96 bg-pink-300/20 dark:bg-pink-900/20 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
+                  </div>
+                  <main className="grow flex flex-col items-center justify-center px-4 relative z-10 w-full max-w-[1600px] mx-auto">
+                    <div className="hidden md:flex flex-row items-center justify-center gap-4 lg:gap-12 w-full">
+                      <div className="group relative flex flex-col items-center justify-center w-32 h-[400px]">
+                        <div className="absolute top-0 flex flex-col items-center w-56 transition-all duration-500 opacity-60 group-hover:opacity-100 group-hover:-translate-y-2">
+                          <div className="w-16 h-16 rounded-full bg-white dark:bg-[#1E293B] shadow-lg dark:shadow-none border-2 border-gray-100 dark:border-gray-700 group-hover:border-[#FB923C] transition-all duration-300 group-hover:dark:shadow-[0_0_20px_rgba(251,146,60,0.4)] flex items-center justify-center z-20 overflow-hidden">
+                            <span className="material-symbols-outlined text-3xl text-gray-700 dark:text-gray-300 group-hover:text-[#FB923C] transition-colors">
+                              <FaRegLightbulb />
+                            </span>
+                          </div>
+                          <div className="text-center mt-3 opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                            <h3 className="font-bold text-gray-900 dark:text-white">
+                              Creative Solutions
+                            </h3>
+                            <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                              Custom solutions, not templates.
+                            </p>
+                          </div>
+                        </div>
+                        <div className="absolute top-[120px] bottom-[220px] w-0.5 bg-linear-to-b from-transparent via-gray-300 dark:via-gray-700 to-gray-800 dark:to-gray-200 group-hover:bg-[#FB923C] transition-colors duration-300 mb-4"></div>
+                        <div className="relative z-10 font-display text-8xl lg:text-9xl font-extrabold text-gray-900 dark:text-white transition-all duration-300 group-hover:text-[#FB923C] group-hover:scale-110 cursor-default select-none shadow-black drop-shadow-2xl">
+                          C
+                        </div>
+                      </div>
+                      <div className="group relative flex flex-col items-center justify-center w-32 h-[400px]">
+                        <div className="relative z-10 font-display text-8xl lg:text-9xl font-extrabold text-gray-900 dark:text-white transition-all duration-300 group-hover:text-[#FB923C] group-hover:scale-110 cursor-default select-none shadow-black drop-shadow-2xl">
+                          E
+                        </div>
+                        <div className="absolute top-[220px] bottom-[120px] w-0.5 bg-linear-to-b from-gray-800 dark:from-gray-200 via-gray-300 dark:via-gray-700 to-transparent group-hover:bg-[#FB923C] transition-colors duration-300 mt-4"></div>
+                        <div className="absolute bottom-0 flex flex-col-reverse items-center w-56 transition-all duration-500 opacity-60 group-hover:opacity-100 group-hover:translate-y-2">
+                          <div className="w-16 h-16 rounded-full bg-white dark:bg-[#1E293B] shadow-lg dark:shadow-none border-2 border-gray-100 dark:border-gray-700 group-hover:border-[#FB923C] transition-all duration-300 group-hover:dark:shadow-[0_0_20px_rgba(251,146,60,0.4)] flex items-center justify-center z-20 overflow-hidden">
+                            <span className="material-symbols-outlined text-3xl text-gray-700 dark:text-gray-300 group-hover:text-[#FB923C] transition-colors">
+                             <GoRocket />
+                            </span>
+                          </div>
+                          <div className="text-center mb-3 opacity-0 group-hover:opacity-100 transform -translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                            <h3 className="font-bold text-gray-900 dark:text-white">
+                              Efficient Execution
+                            </h3>
+                            <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                              Launch in weeks, not months.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="group relative flex flex-col items-center justify-center w-32 h-[400px]">
+                        <div className="absolute top-0 flex flex-col items-center w-56 transition-all duration-500 opacity-60 group-hover:opacity-100 group-hover:-translate-y-2">
+                          <div className="w-16 h-16 rounded-full bg-white dark:bg-[#1E293B] shadow-lg dark:shadow-none border-2 border-gray-100 dark:border-gray-700 group-hover:border-[#FB923C] transition-all duration-300 group-hover:dark:shadow-[0_0_20px_rgba(251,146,60,0.4)] flex items-center justify-center z-20 overflow-hidden">
+                            <span className="material-symbols-outlined text-3xl text-gray-700 dark:text-gray-300 group-hover:text-[#FB923C] transition-colors">
+                              <MdOutlinePsychology />
+                            </span>
+                          </div>
+                          <div className="text-center mt-3 opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                            <h3 className="font-bold text-gray-900 dark:text-white">
+                              Strategic Decisions
+                            </h3>
+                            <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                              Wise choices for growth.
+                            </p>
+                          </div>
+                        </div>
+                        <div className="absolute top-[120px] bottom-[220px] w-0.5 bg-linear-to-b from-transparent via-gray-300 dark:via-gray-700 to-gray-800 dark:to-gray-200 group-hover:bg-[#FB923C] transition-colors duration-300 mb-4"></div>
+                        <div className="relative z-10 font-display text-8xl lg:text-9xl font-extrabold text-gray-900 dark:text-white transition-all duration-300 group-hover:text-[#FB923C] group-hover:scale-110 cursor-default select-none shadow-black drop-shadow-2xl">
+                          W
+                        </div>
+                      </div>
+                      <div className="group relative flex flex-col items-center justify-center w-32 h-[400px]">
+                        <div className="relative z-10 font-display text-8xl lg:text-9xl font-extrabold text-gray-900 dark:text-white transition-all duration-300 group-hover:text-[#FB923C] group-hover:scale-110 cursor-default select-none shadow-black drop-shadow-2xl">
+                          E
+                        </div>
+                        <div className="absolute top-[220px] bottom-[120px] w-0.5 bg-linear-to-b from-gray-800 dark:from-gray-200 via-gray-300 dark:via-gray-700 to-transparent group-hover:bg-[#FB923C] transition-colors duration-300 mt-4"></div>
+                        <div className="absolute bottom-0 flex flex-col-reverse items-center w-56 transition-all duration-500 opacity-60 group-hover:opacity-100 group-hover:translate-y-2">
+                          <div className="w-16 h-16 rounded-full bg-white dark:bg-[#1E293B] shadow-lg dark:shadow-none border-2 border-gray-100 dark:border-gray-700 group-hover:border-[#FB923C] transition-all duration-300 group-hover:dark:shadow-[0_0_20px_rgba(251,146,60,0.4)] flex items-center justify-center z-20 overflow-hidden">
+                            <span className="material-symbols-outlined text-3xl text-gray-700 dark:text-gray-300 group-hover:text-[#FB923C] transition-colors">
+                              <MdArchitecture />
+                            </span>
+                          </div>
+                          <div className="text-center mb-3 opacity-0 group-hover:opacity-100 transform -translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                            <h3 className="font-bold text-gray-900 dark:text-white">
+                              Engineered For Scale
+                            </h3>
+                            <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                              Built to last and grow.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="group relative flex flex-col items-center justify-center w-32 h-[400px]">
+                        <div className="absolute top-0 flex flex-col items-center w-56 transition-all duration-500 opacity-60 group-hover:opacity-100 group-hover:-translate-y-2">
+                          <div className="w-16 h-16 rounded-full bg-white dark:bg-[#1E293B] shadow-lg dark:shadow-none border-2 border-gray-100 dark:border-gray-700 group-hover:border-[#FB923C] transition-all duration-300 group-hover:dark:shadow-[0_0_20px_rgba(251,146,60,0.4)] flex items-center justify-center z-20 overflow-hidden">
+                            <span className="material-symbols-outlined text-3xl text-gray-700 dark:text-gray-300 group-hover:text-[#FB923C] transition-colors">
+                              <IoDiamondOutline />
+                            </span>
+                          </div>
+                          <div className="text-center mt-3 opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                            <h3 className="font-bold text-gray-900 dark:text-white">
+                              Exceptional Quality
+                            </h3>
+                            <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                              Quality in every detail.
+                            </p>
+                          </div>
+                        </div>
+                        <div className="absolute top-[120px] bottom-[220px] w-0.5 bg-linear-to-b from-transparent via-gray-300 dark:via-gray-700 to-gray-800 dark:to-gray-200 group-hover:bg-[#FB923C] transition-colors duration-300 mb-4"></div>
+                        <div className="relative z-10 font-display text-8xl lg:text-9xl font-extrabold text-gray-900 dark:text-white transition-all duration-300 group-hover:text-[#FB923C] group-hover:scale-110 cursor-default select-none shadow-black drop-shadow-2xl">
+                          X
+                        </div>
+                      </div>
+                      <div className="group relative flex flex-col items-center justify-center w-32 h-[400px]">
+                        <div className="relative z-10 font-display text-8xl lg:text-9xl font-extrabold text-gray-900 dark:text-white transition-all duration-300 group-hover:text-[#FB923C] group-hover:scale-110 cursor-default select-none shadow-black drop-shadow-2xl">
+                          A
+                        </div>
+                        <div className="absolute top-[220px] bottom-[120px] w-0.5 bg-linear-to-b from-gray-800 dark:from-gray-200 via-gray-300 dark:via-gray-700 to-transparent group-hover:bg-[#FB923C] transition-colors duration-300 mt-4"></div>
+                        <div className="absolute bottom-0 flex flex-col-reverse items-center w-56 transition-all duration-500 opacity-60 group-hover:opacity-100 group-hover:translate-y-2">
+                          <div className="w-16 h-16 rounded-full bg-white dark:bg-[#1E293B] shadow-lg dark:shadow-none border-2 border-gray-100 dark:border-gray-700 group-hover:border-[#FB923C] transition-all duration-300 group-hover:dark:shadow-[0_0_20px_rgba(251,146,60,0.4)] flex items-center justify-center z-20 overflow-hidden">
+                            <span className="material-symbols-outlined text-3xl text-gray-700 dark:text-gray-300 group-hover:text-[#FB923C] transition-colors">
+                              <MdAutorenew />
+                            </span>
+                          </div>
+                          <div className="text-center mb-3 opacity-0 group-hover:opacity-100 transform -translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                            <h3 className="font-bold text-gray-900 dark:text-white">
+                              Agile Methodology
+                            </h3>
+                            <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                              Adapts with you.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex md:hidden flex-col w-full gap-8">
+                      <div className="group flex items-center gap-6 p-4 rounded-xl hover:bg-white/50 dark:hover:bg-[#1E293B]/50 transition-colors">
+                        <div className="font-display text-6xl font-extrabold text-gray-900 dark:text-white group-hover:text-[#FB923C] transition-colors w-16 text-center">
+                          C
+                        </div>
+                        <div className="flex flex-col">
+                          <h3 className="text-lg font-bold text-gray-800 dark:text-white flex items-center gap-2">
+                            <span className="material-symbols-outlined text-[#FB923C] text-xl">
+                              <FaLightbulb />
+                            </span>
+                            Creative Solutions
+                          </h3>
+                          <p className="text-sm text-gray-600 dark:text-gray-400">
+                            Custom solutions, not templates.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="group flex items-center gap-6 p-4 rounded-xl hover:bg-white/50 dark:hover:bg-[#1E293B]/50 transition-colors">
+                        <div className="font-display text-6xl font-extrabold text-gray-900 dark:text-white group-hover:text-[#FB923C] transition-colors w-16 text-center">
+                          E
+                        </div>
+                        <div className="flex flex-col">
+                          <h3 className="text-lg font-bold text-gray-800 dark:text-white flex items-center gap-2">
+                            <span className="material-symbols-outlined text-[#FB923C] text-xl">
+                              <GoRocket />
+                            </span>
+                            Efficient Execution
+                          </h3>
+                          <p className="text-sm text-gray-600 dark:text-gray-400">
+                            Launch in weeks, not months.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="group flex items-center gap-6 p-4 rounded-xl hover:bg-white/50 dark:hover:bg-[#1E293B]/50 transition-colors">
+                        <div className="font-display text-6xl font-extrabold text-gray-900 dark:text-white group-hover:text-[#FB923C] transition-colors w-16 text-center">
+                          W
+                        </div>
+                        <div className="flex flex-col">
+                          <h3 className="text-lg font-bold text-gray-800 dark:text-white flex items-center gap-2">
+                            <span className="material-symbols-outlined text-[#FB923C] text-xl">
+                              <MdOutlinePsychology />
+                            </span>
+                            Strategic Decisions
+                          </h3>
+                          <p className="text-sm text-gray-600 dark:text-gray-400">
+                            Wise choices for growth.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="group flex items-center gap-6 p-4 rounded-xl hover:bg-white/50 dark:hover:bg-[#1E293B]/50 transition-colors">
+                        <div className="font-display text-6xl font-extrabold text-gray-900 dark:text-white group-hover:text-[#FB923C] transition-colors w-16 text-center">
+                          E
+                        </div>
+                        <div className="flex flex-col">
+                          <h3 className="text-lg font-bold text-gray-800 dark:text-white flex items-center gap-2">
+                            <span className="material-symbols-outlined text-[#FB923C] text-xl">
+                               <MdArchitecture />
+                            </span>
+                            Engineered for Scale
+                          </h3>
+                          <p className="text-sm text-gray-600 dark:text-gray-400">
+                            Built to last and grow.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="group flex items-center gap-6 p-4 rounded-xl hover:bg-white/50 dark:hover:bg-[#1E293B]/50 transition-colors">
+                        <div className="font-display text-6xl font-extrabold text-gray-900 dark:text-white group-hover:text-[#FB923C] transition-colors w-16 text-center">
+                          X
+                        </div>
+                        <div className="flex flex-col">
+                          <h3 className="text-lg font-bold text-gray-800 dark:text-white flex items-center gap-2">
+                            <span className="material-symbols-outlined text-[#FB923C] text-xl">
+                                <IoDiamondOutline />
+                            </span>
+                            Exceptional Quality
+                          </h3>
+                          <p className="text-sm text-gray-600 dark:text-gray-400">
+                            Quality in every detail.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="group flex items-center gap-6 p-4 rounded-xl hover:bg-white/50 dark:hover:bg-[#1E293B]/50 transition-colors">
+                        <div className="font-display text-6xl font-extrabold text-gray-900 dark:text-white group-hover:text-[#FB923C] transition-colors w-16 text-center">
+                          A
+                        </div>
+                        <div className="flex flex-col">
+                          <h3 className="text-lg font-bold text-gray-800 dark:text-white flex items-center gap-2">
+                            <span className="material-symbols-outlined text-[#FB923C] text-xl">
+                               <MdAutorenew />
+                            </span>
+                            Agile Methodology
+                          </h3>
+                          <p className="text-sm text-gray-600 dark:text-gray-400">
+                            Adapts with you.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </main>
+                </div>
               {/* CTA */}
               <div className="animate-on-scroll animate-slide-in-3 relative text-light-text-primary p-8 sm:p-12 md:p-16 rounded-2xl flex flex-col items-center justify-center gap-8 text-center overflow-hidden border  dark:bg-gray-900 bg-orange-50
  animate-gradient-fade">
