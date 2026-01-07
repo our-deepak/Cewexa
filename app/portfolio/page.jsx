@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useEffect } from "react";
 import { MdArrowOutward } from "react-icons/md";
 
@@ -6,37 +6,37 @@ const projects = [
   {
     title: "Can increase +140% patient inquiries",
     tag: "Doctor's Website",
-    img: "https://res.cloudinary.com/dj1alxa4r/image/upload/v1767712828/doctor_regxjd.avif",
+    img: "https://res.cloudinary.com/dj1alxa4r/image/upload/v1767774981/doctor_s_website_w0xq7g.png",
     href: "https://doctors-planet.netlify.app/",
   },
   {
-    title: "Can increase +150% student enrollment",
-    tag: "School's Website",
-    img: "https://res.cloudinary.com/dj1alxa4r/image/upload/v1767712828/school_y0hyeb.avif",
-    href: "https://dummy-collge-website.netlify.app/",
+    title: "A tool to find recipes using entered ingredients",
+    tag: " Food Recipe Finder",
+    img: "https://res.cloudinary.com/dj1alxa4r/image/upload/v1767775442/food_recipe_website_jxeu1a.png",
+    href: "https://welcome-to-foodieverse.netlify.app/",
   },
   {
     title: "Can increase +250% food orders",
     tag: "Restaurant's Website",
-    img: "https://res.cloudinary.com/dj1alxa4r/image/upload/v1767712828/restaurant_nkmcto.avif",
+    img: "https://res.cloudinary.com/dj1alxa4r/image/upload/v1767775442/restaurant_website_nef5ck.png",
     href: "https://dummy-restuarant-website.netlify.app/",
   },
   {
     title: "Can increase +150% income",
     tag: "Gym's Website",
-    img: "https://res.cloudinary.com/dj1alxa4r/image/upload/v1767712829/gym_ceodie.avif",
+    img: "https://res.cloudinary.com/dj1alxa4r/image/upload/v1767775219/gym_website_d79ebs.png",
     href: "https://global-fitness-gym.netlify.app/",
   },
   {
     title: "Can increase +200% customers",
     tag: "Hair Salon's Website",
-    img: "https://res.cloudinary.com/dj1alxa4r/image/upload/v1767712828/saloon_vbmfqn.avif",
+    img: "https://res.cloudinary.com/dj1alxa4r/image/upload/v1767775219/hair_saloon_website_nxpcho.jpg",
     href: "https://sj-hair-salon.netlify.app/",
   },
   {
     title: "Can increase +150% inquries",
     tag: "Event Planner's Website",
-    img: "https://res.cloudinary.com/dj1alxa4r/image/upload/v1767712828/event_gtvej4.avif",
+    img: "https://res.cloudinary.com/dj1alxa4r/image/upload/v1767775218/event_planner_website_voj5wc.jpg",
     href: "https://eventplanner-template.netlify.app/",
   },
 ];
@@ -72,18 +72,21 @@ const Portfolio = () => {
           c.classList.add("card-enter");
         });
       } else {
-        const cardObserver = new IntersectionObserver((entries, obs) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              const node = entry.target;
-              // pick index from dataset or compute
-              const idx = Number(node.dataset.index || 0);
-              node.style.animationDelay = `${idx * 80}ms`;
-              node.classList.add("card-enter");
-              obs.unobserve(node);
-            }
-          });
-        }, { threshold: 0.12 });
+        const cardObserver = new IntersectionObserver(
+          (entries, obs) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                const node = entry.target;
+                // pick index from dataset or compute
+                const idx = Number(node.dataset.index || 0);
+                node.style.animationDelay = `${idx * 80}ms`;
+                node.classList.add("card-enter");
+                obs.unobserve(node);
+              }
+            });
+          },
+          { threshold: 0.12 }
+        );
         cards.forEach((c) => cardObserver.observe(c));
       }
     }
@@ -144,9 +147,13 @@ const Portfolio = () => {
             <div className="layout-content-container flex flex-col max-w-7xl flex-1 px-4 md:px-10">
               <main className="flex-1 py-4 sm:py-8 ">
                 <div className="flex flex-col gap-6 items-center text-center max-w-3xl mx-auto">
-                  <h1 className="reveal text-gray-900 text-5xl md:text-7xl font-black tracking-tighter dark:text-white">Our Work</h1>
+                  <h1 className="reveal text-gray-900 text-5xl md:text-7xl font-black tracking-tighter dark:text-white">
+                    Our Work
+                  </h1>
                   <p className="reveal text-gray-600 text-lg md:text-xl font-normal leading-normal dark:text-white">
-                    We transform ideas into digital reality. Explore a curated selection of our projects that showcase our commitment to excellence and innovation.
+                    We transform ideas into digital reality. Explore a curated
+                    selection of our projects that showcase our commitment to
+                    excellence and innovation.
                   </p>
                 </div>
 
@@ -154,13 +161,19 @@ const Portfolio = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((p, i) => (
                       <a
-                        key={i}
-                        href={p.href}
-                        className="group relative block overflow-hidden rounded-xl border border-gray-200 transition-all duration-500 ease-in-out hover:border-primary hover:shadow-2xl hover:shadow-primary/10 hover:-translate-y-2 bg-white project-card"
-                        data-index={i}
-                        aria-describedby={`proj-${i}-title`}
-                      >
-                        <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/30 to-transparent z-10" aria-hidden="true" />
+  key={i}
+  href={p.href}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group relative block overflow-hidden rounded-xl border border-gray-200 transition-all duration-500 ease-in-out hover:border-primary hover:shadow-2xl hover:shadow-primary/10 hover:-translate-y-2 bg-white project-card"
+  data-index={i}
+  aria-describedby={`proj-${i}-title`}
+>
+
+                        <div
+                          className="absolute inset-0 bg-linear-to-t from-black/60 via-black/30 to-transparent z-10"
+                          aria-hidden="true"
+                        />
                         <img
                           alt={p.title}
                           className="h-96 w-full object-cover cover"
@@ -172,17 +185,30 @@ const Portfolio = () => {
                           <span className="inline-block text-xs font-semibold uppercase tracking-wider text-primary bg-primary/10 px-2 py-1 rounded-full transition-transform duration-300 ease-in-out group-hover:scale-110 bg-amber-500 label">
                             {p.tag}
                           </span>
-                          <h3 id={`proj-${i}-title`} className="text-white text-2xl font-bold leading-tight mt-3">
+                          <h3
+                            id={`proj-${i}-title`}
+                            className="text-white text-2xl font-bold leading-tight mt-3"
+                          >
                             {p.title}
                           </h3>
                         </div>
 
-                        <div className="absolute top-6 right-6 flex h-10 w-10 items-center justify-center rounded-full bg-black/50 text-white opacity-0 card-action z-20" aria-hidden="true">
+                        <div
+                          className="absolute top-6 right-6 flex h-10 w-10 items-center justify-center rounded-full bg-black/50 text-white opacity-0 card-action z-20"
+                          aria-hidden="true"
+                        >
                           <MdArrowOutward />
                         </div>
 
                         {/* subtle accent block for layered parallax feel */}
-                        <div className="absolute -top-4 -left-4 w-full h-full rounded-xl accent pointer-events-none" style={{ transformOrigin: "center", transition: "transform .45s ease" }} aria-hidden="true" />
+                        <div
+                          className="absolute -top-4 -left-4 w-full h-full rounded-xl accent pointer-events-none"
+                          style={{
+                            transformOrigin: "center",
+                            transition: "transform .45s ease",
+                          }}
+                          aria-hidden="true"
+                        />
                       </a>
                     ))}
                   </div>
@@ -191,8 +217,13 @@ const Portfolio = () => {
 
               <div className="border-t border-gray-200 dark:border-gray-800 py-16">
                 <div className="flex flex-col items-center justify-center gap-8 text-center">
-                  <h2 className="text-gray-900 text-4xl md:text-5xl font-black tracking-tighter max-w-2xl dark:text-white">Ready to Start Your Next Project?</h2>
-                  <p className="text-gray-600 text-lg leading-relaxed max-w-xl dark:text-white">Let us collaborate to create something outstanding. We are here to turn your vision into a high-performance reality.</p>
+                  <h2 className="text-gray-900 text-4xl md:text-5xl font-black tracking-tighter max-w-2xl dark:text-white">
+                    Ready to Start Your Next Project?
+                  </h2>
+                  <p className="text-gray-600 text-lg leading-relaxed max-w-xl dark:text-white">
+                    Let us collaborate to create something outstanding. We are
+                    here to turn your vision into a high-performance reality.
+                  </p>
                   <a href="/contact">
                     <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 bg-primary text-white text-base font-bold leading-normal tracking-wider transition-transform hover:scale-105 bg-orange-500">
                       <span className="truncate">Contact Us Now</span>
