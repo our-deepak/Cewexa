@@ -375,25 +375,25 @@ export default function Contact() {
                         </div>
                       </a>
 
-                      <a className="flex items-start gap-5 group card" data-delay-index="1" href="tel:+918441006695">
+                      <a className="flex items-start gap-5 group card" data-delay-index="1" href="tel:+919001249294">
                         <div className="shrink-0 size-12 rounded-lg bg-orange-200 dark:bg-gray-800 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:-rotate-12">
                           <IoCall className="text-orange-400 text-3xl" />
                         </div>
                         <div>
                           <h3 className="text-lg font-bold text-stone-900 dark:text-white">Call Us</h3>
                           <p className="text-stone-600 mt-1 dark:text-gray-300 ">Speak with our team directly.</p>
-                          <p className="text-primary font-medium mt-2 dark:text-white">+91-8441006695</p>
+                          <p className="text-primary font-medium mt-2 dark:text-white">+91-9001249294</p>
                         </div>
                       </a>
 
-                      <a className="flex items-start gap-5 group card" data-delay-index="2" href="https://wa.me/918441006695" target="_blank" rel="noreferrer">
+                      <a className="flex items-start gap-5 group card" data-delay-index="2" href="https://wa.me/919001249294" target="_blank" rel="noreferrer">
                         <div className="shrink-0 size-12 rounded-lg bg-orange-200 dark:bg-gray-800 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:-rotate-12">
                           <FaWhatsapp className="text-orange-400 text-3xl" />
                         </div>
                         <div>
                           <h3 className="text-lg font-bold text-stone-900 dark:text-white">WhatsApp Us</h3>
                           <p className="text-stone-600 mt-1 dark:text-gray-300">Chat on WhatsApp.</p>
-                          <p className="text-primary font-medium mt-2 dark:text-white">+91-8441006695</p>
+                          <p className="text-primary font-medium mt-2 dark:text-white">+91-9001249294</p>
                         </div>
                       </a>
                     </div>
